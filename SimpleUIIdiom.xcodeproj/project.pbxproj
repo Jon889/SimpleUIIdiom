@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6970BD14A61BCE009DF394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6970BC14A61BCE009DF394 /* Foundation.framework */; };
+		AB6970C314A61BCE009DF394 /* SimpleUIIdiom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6970C214A61BCE009DF394 /* SimpleUIIdiom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB6970B914A61BCE009DF394 /* libSimpleUIIdiom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleUIIdiom.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6970BC14A61BCE009DF394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB6970C014A61BCE009DF394 /* SimpleUIIdiom-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleUIIdiom-Prefix.pch"; sourceTree = "<group>"; };
+		AB6970C114A61BCE009DF394 /* SimpleUIIdiom.h */ = {isa = PBXFileReference; path = SimpleUIIdiom.h; sourceTree = "<group>"; };
+		AB6970C214A61BCE009DF394 /* SimpleUIIdiom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleUIIdiom.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6970B614A61BCE009DF394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6970BD14A61BCE009DF394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6970AE14A61BCD009DF394 = {
+			isa = PBXGroup;
+			children = (
+				AB6970BE14A61BCE009DF394 /* SimpleUIIdiom */,
+				AB6970BB14A61BCE009DF394 /* Frameworks */,
+				AB6970BA14A61BCE009DF394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6970BA14A61BCE009DF394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6970B914A61BCE009DF394 /* libSimpleUIIdiom.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6970BB14A61BCE009DF394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6970BC14A61BCE009DF394 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6970BE14A61BCE009DF394 /* SimpleUIIdiom */ = {
+			isa = PBXGroup;
+			children = (
+				AB6970C114A61BCE009DF394 /* SimpleUIIdiom.h */,
+				AB6970C214A61BCE009DF394 /* SimpleUIIdiom.m */,
+				AB6970BF14A61BCE009DF394 /* Supporting Files */,
+			);
+			path = SimpleUIIdiom;
+			sourceTree = "<group>";
+		};
+		AB6970BF14A61BCE009DF394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6970C014A61BCE009DF394 /* SimpleUIIdiom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB6970B714A61BCE009DF394 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB6970B814A61BCE009DF394 /* SimpleUIIdiom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6970C614A61BCE009DF394 /* Build configuration list for PBXNativeTarget "SimpleUIIdiom" */;
+			buildPhases = (
+				AB6970B514A61BCE009DF394 /* Sources */,
+				AB6970B614A61BCE009DF394 /* Frameworks */,
+				AB6970B714A61BCE009DF394 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleUIIdiom;
+			productName = SimpleUIIdiom;
+			productReference = AB6970B914A61BCE009DF394 /* libSimpleUIIdiom.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6970B014A61BCD009DF394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AB6970B314A61BCD009DF394 /* Build configuration list for PBXProject "SimpleUIIdiom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB6970AE14A61BCD009DF394;
+			productRefGroup = AB6970BA14A61BCE009DF394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6970B814A61BCE009DF394 /* SimpleUIIdiom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6970B514A61BCE009DF394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6970C314A61BCE009DF394 /* SimpleUIIdiom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB6970C414A61BCE009DF394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB6970C514A61BCE009DF394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6970C714A61BCE009DF394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SimpleUIIdiom.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUIIdiom/SimpleUIIdiom-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB6970C814A61BCE009DF394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SimpleUIIdiom.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUIIdiom/SimpleUIIdiom-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6970B314A61BCD009DF394 /* Build configuration list for PBXProject "SimpleUIIdiom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6970C414A61BCE009DF394 /* Debug */,
+				AB6970C514A61BCE009DF394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6970C614A61BCE009DF394 /* Build configuration list for PBXNativeTarget "SimpleUIIdiom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6970C714A61BCE009DF394 /* Debug */,
+				AB6970C814A61BCE009DF394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6970B014A61BCD009DF394 /* Project object */;
+}
