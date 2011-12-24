@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AB6970BD14A61BCE009DF394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6970BC14A61BCE009DF394 /* Foundation.framework */; };
-		AB6970C314A61BCE009DF394 /* SimpleUIIdiom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6970C214A61BCE009DF394 /* SimpleUIIdiom.m */; };
+		AB6970CB14A61C1B009DF394 /* SimpleUIIdiom.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6970C914A61C1B009DF394 /* SimpleUIIdiom.h */; };
+		AB6970CC14A61C1B009DF394 /* SimpleUIIdiom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6970CA14A61C1B009DF394 /* SimpleUIIdiom.m */; };
+		AB6970CE14A61CB3009DF394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6970CD14A61CB3009DF394 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB6970B914A61BCE009DF394 /* libSimpleUIIdiom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleUIIdiom.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6970BC14A61BCE009DF394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB6970C014A61BCE009DF394 /* SimpleUIIdiom-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleUIIdiom-Prefix.pch"; sourceTree = "<group>"; };
-		AB6970C114A61BCE009DF394 /* SimpleUIIdiom.h */ = {isa = PBXFileReference; path = SimpleUIIdiom.h; sourceTree = "<group>"; };
-		AB6970C214A61BCE009DF394 /* SimpleUIIdiom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleUIIdiom.m; sourceTree = "<group>"; };
+		AB6970C014A61BCE009DF394 /* SimpleUIIdiom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleUIIdiom-Prefix.pch"; sourceTree = "<group>"; };
+		AB6970C914A61C1B009DF394 /* SimpleUIIdiom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleUIIdiom.h; sourceTree = "<group>"; };
+		AB6970CA14A61C1B009DF394 /* SimpleUIIdiom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleUIIdiom.m; sourceTree = "<group>"; };
+		AB6970CD14A61CB3009DF394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6970CE14A61CB3009DF394 /* UIKit.framework in Frameworks */,
 				AB6970BD14A61BCE009DF394 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +38,7 @@
 		AB6970AE14A61BCD009DF394 = {
 			isa = PBXGroup;
 			children = (
+				AB6970CD14A61CB3009DF394 /* UIKit.framework */,
 				AB6970BE14A61BCE009DF394 /* SimpleUIIdiom */,
 				AB6970BB14A61BCE009DF394 /* Frameworks */,
 				AB6970BA14A61BCE009DF394 /* Products */,
@@ -59,9 +64,9 @@
 		AB6970BE14A61BCE009DF394 /* SimpleUIIdiom */ = {
 			isa = PBXGroup;
 			children = (
-				AB6970C114A61BCE009DF394 /* SimpleUIIdiom.h */,
-				AB6970C214A61BCE009DF394 /* SimpleUIIdiom.m */,
 				AB6970BF14A61BCE009DF394 /* Supporting Files */,
+				AB6970C914A61C1B009DF394 /* SimpleUIIdiom.h */,
+				AB6970CA14A61C1B009DF394 /* SimpleUIIdiom.m */,
 			);
 			path = SimpleUIIdiom;
 			sourceTree = "<group>";
@@ -81,6 +86,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6970CB14A61C1B009DF394 /* SimpleUIIdiom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6970C314A61BCE009DF394 /* SimpleUIIdiom.m in Sources */,
+				AB6970CC14A61C1B009DF394 /* SimpleUIIdiom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

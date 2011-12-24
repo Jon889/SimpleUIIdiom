@@ -7,17 +7,21 @@
 //
 
 #import "SimpleUIIdiom.h"
-
-@implementation SimpleUIIdiom
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Initialization code here.
+#undef iPadCode
+#undef iPhoneCode
+@implementation iPadCode
++(void):(void (^)(void))ipadBlock {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        ipadBlock();
     }
-    
-    return self;
 }
-
 @end
+
+@implementation iPhoneCode
++(void):(void (^)(void))iphoneBlock {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        iphoneBlock();
+    }
+}
+@end
+
